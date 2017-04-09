@@ -7,7 +7,7 @@ const http = require('http');
 
 const app = express();
 
-app.set('port', process.env.PORT || 60000);
+app.set('port', process.env.PORT || 80);
 
 switch(app.get('env')){
 	case 'development':
